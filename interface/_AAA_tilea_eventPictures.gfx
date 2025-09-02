@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "TILEA_AZUL_eventPicture"
+		texturefile = "gfx/event_pictures/TILEA_AZUL_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}

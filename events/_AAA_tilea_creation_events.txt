@@ -5,7 +5,7 @@ country_event = {
 	id = tilea_creation.1
 	title = tilea_creation.1.t
 	desc = tilea_creation.1.d
-	picture = GOOD_WITH_MONARCH_eventPicture
+	picture = TILEA_AZUL_eventPicture
 	
 	major = yes
 
@@ -22,7 +22,11 @@ country_event = {
 	option = {
 		name = tilea_creation.1.a
 		953 = {
-            change_native_size = 8500
+            add_institution_embracement = {
+                which = feudalism
+                value = 100
+            }
+            change_native_size = 65
             change_province_name = "Tilea"
             rename_capital = "Tilea"
             change_trade_goods = fur
