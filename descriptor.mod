@@ -1,4 +1,4 @@
-name="1.37 Doge Shattered Europa"
+name="AmericanTilea"
 replace_path="common/bookmarks"
 replace_path="common/estates"
 tags={
@@ -13,7 +13,5 @@ tags={
 	"Ages"
 	"Formables"
 }
+picture="thumbnail.png"
 supported_version="v1.37.*.*"
-picture = "thumbnail.png"
-path="mod/DogeEU4"
-remote_file_id="2152606065"

@@ -1,0 +1,72 @@
+namespace = tilea_creation
+
+#quick creation for testing
+country_event = {
+	id = tilea_creation.1
+	title = tilea_creation.1.t
+	desc = tilea_creation.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	major = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+		months = 2
+	}
+	
+	trigger = {
+		owns = 367
+	}
+	
+	option = {
+		name = tilea_creation.1.a
+		953 = {
+            change_native_size = 8500
+            change_province_name = "Tilea"
+            rename_capital = "Tilea"
+            change_trade_goods = fur
+            add_core = AAA
+            cede_province = AAA
+            change_culture = galician
+            change_religion = catholic
+		}
+        switch_tag = AAA
+        every_province = {
+            limit = {
+                has_discovered = AAA
+            }
+            undiscover_country = AAA
+        }
+        maryland_area = { # 953 2553 2554; 
+            discover_country = AAA
+        }
+        950 = {
+            discover_country = AAA
+        }
+        952 = {
+            discover_country = AAA
+        }
+        957 = {
+            discover_country = AAA
+        }
+        938 = {
+            discover_country = AAA
+        }
+        2546 = {
+            discover_country = AAA
+        }
+        2547 = {
+            discover_country = AAA
+        }
+        2550 = {
+            discover_country = AAA
+        }
+        2554 = {
+            discover_country = AAA
+        }
+        2011 = {
+            discover_country = AAA
+        }
+	}
+}

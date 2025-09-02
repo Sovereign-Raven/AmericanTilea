@@ -4,7 +4,7 @@ spriteTypes = {
 		name = "GFX_tech_group_strip"
 		texturefile = "gfx//interface//tech_group_strip.dds"
 		transparencecheck = yes	
-		noOfFrames = 19
+		noOfFrames = 20
 	}
 
 	# countrygovernmentview.gfx
@@ -12,6 +12,6 @@ spriteTypes = {
 		name = "GFX_tech_group_strip"
 		texturefile = "gfx//interface//tech_group_strip.dds"
 		transparencecheck = yes
-		noOfFrames = 19
+		noOfFrames = 20
 	}
 }

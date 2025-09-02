@@ -1,0 +1,18 @@
+﻿l_english:
+
+ # GENERAL
+ AAA: "Tilea"
+ AAA_ADJ: "Tilean"
+ lost_colony_tech_group: "Lost Colony"
+ 
+ # DECISION
+ 
+ #buildamerc_main_decision_title: "£icon_ideas£ Build-A-Mercenary"
+ 
+ 
+ 
+ # EVENT
+ 
+ tilea_creation.1.t: "Build-A-Mercenary"
+ tilea_creation.1.d: "Mercenaries are a "
+ tilea_creation.1.a: "§YDedications§! - [Root.GetMercDedicationPick]"

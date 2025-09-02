@@ -1,0 +1,27 @@
+999_tilean_units_01 = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = AAA
+	}
+
+	sprite_infantry = {
+		0 = NRM_INFANTRY_1
+		1 = CNN_INFANTRY_2
+		2 = HAN_INFANTRY_3
+		3 = SWE_NEW_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = NRM_CAVALRY_1
+		1 = CNN_CAVALRY_2
+		2 = HAN_CAVALRY_3
+		3 = SWE_NEW_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = NRM_ARTILLERY_1
+		1 = CNN_ARTILLERY_2
+		2 = HAN_ARTILLERY_3
+		3 = TILEAN_ARTILLERY_4
+	}
+}

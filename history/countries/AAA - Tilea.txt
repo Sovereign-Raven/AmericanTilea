@@ -1,0 +1,27 @@
+government = republic
+add_government_reform = oligarchy_reform
+mercantilism = 25
+primary_culture = galician
+religion = catholic
+technology_group = lost_colony_tech_group
+capital = 953 # "Washington"
+add_army_professionalism = 0.05
+
+1442.9.10 = {
+	monarch = {
+		name = "Atalanta"
+		dynasty = "Elessar"
+		birth_date = 1429.1.1
+		death_date = 1481.8.28
+		adm = 4
+		dip = 3
+		mil = 5
+		female = yes
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = legendary_pirate_personality
+	add_ruler_personality = navigator_personality
+	add_ruler_personality = strict_personality
+}
+
+1443.1.1 = { leader = {	name = "Diogo Gomes"		type = explorer	fire = 3	shock = 3	manuever = 6	siege = 0	death_date = 1462.12.31 } }

@@ -254,6 +254,11 @@ groups = {
 		start_level = 3
 		start_cost_modifier = 0
 	}
+
+	lost_colony_tech_group = {
+		start_level = 3
+		start_cost_modifier = 0
+	}
 }
 
 tables = {
