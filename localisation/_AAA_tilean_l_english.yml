@@ -3,7 +3,17 @@
  # GENERAL
  AAA: "Tilea"
  AAA_ADJ: "Tilean"
+ AAD: "Gilboreto"
+ AAD_ADJ: "Gilboretese"
  lost_colony_tech_group: "Lost Colony"
+ tilean_culture_group: "Tilean"
+ tilean_culture: "Tilean"
+ boreais_culture: "Boreais"
+ setentriao_culture: "Setentriao"
+ vesperiais_culture: "Vesperiais"
+ ventao_culture: "Ventao"
+ vegao_culture: "Vegao"
+ montao_culture: "Montao"
  
  # DECISION
  

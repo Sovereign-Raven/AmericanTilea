@@ -2,8 +2,8 @@
 
 graphical_culture = westerngfx
 
-color = {   0  68 131 }
-revolutionary_colors = { 15 8 1 }
+color = {  60 128 079 }
+revolutionary_colors = { 10 0 1 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -146,12 +146,4 @@ ship_names = {
 	Terror Toledo Trinidad Triton Unicornio
 	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zuniga
 	Estela Cometo Meteor Marlin Viper Equinox Penumbra Atalanta Okeanos Eos Zephyr Ekate Orcus Perla Eminencia Cataclismo Gavrilo Atlas Riviera Acurio Scipio
-}
-
-army_names = {
-	"Leonin Armata" "Bolboreta Armata" "$PROVINCE$ Armata" 
-}
-
-fleet_names = {
-	"Estelar Esquadra" "$PROVINCE$ Esquadra"
 }

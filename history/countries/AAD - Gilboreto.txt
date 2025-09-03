@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = oligarchy_reform
+primary_culture = galician
+religion = catholic
+technology_group = lost_colony_tech_group
+capital = 481 # Bermuda

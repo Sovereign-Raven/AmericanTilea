@@ -1,0 +1,56 @@
+tilean_culture_group = {
+	graphical_culture = westerngfx
+
+    tilean_culture = { #east coast
+        primary = AAA
+    }
+    boreais_culture = { #oceanic canada
+        primary = AAA
+    }
+    setentriao_culture = { #inland canada
+        primary = AAA
+    }
+    vesperiais_culture = { #californian
+        primary = AAA
+    }
+    ventao_culture = { #windy caribbeans
+        primary = AAA
+    }
+    vegao_culture = { #vega the plains, midwest
+        primary = AAA
+    }
+    montao_culture = { #mountain, appalachia, rockies, mexico?
+        primary = AAA
+    }
+    dynasty_names = {
+        "de Elessar"
+        Osorio Andrade
+        "de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"
+        "de Medinaceli" "de Castro" "de Haro" Santcliment "de Altamira"
+        Zuniga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+        "de Cabrera" "de Villena" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
+        Mella Balbi Campi Cataneo Ceba Centurion Chiavar Cybo Doria "de Fornar" Busca
+        Invrea Longo "de Mari" Negrone "de Novi" Odoni
+        Pico Pinolo Promontorio Rovera
+        Sale Senarega Serra Spinola "del Torro"
+        "de Aguirre" "de Alarcon" "de Toledo" "de Andrade" "de Ayala"
+        "de Bazan" "de Benavides" Campomanes "de Castilla" "de la Cerda" Cienfuegos Colon Coronado Cortes
+        "de Cordoba" "de la Cueva" "de Figueroa" Fonseca
+        Galvez Gomez "de Guzman" "Jimenez de Cisneros"
+        "de Leiva" "Lopez de Haro" "de Luna"
+        "de Lara" "de Velasco"
+        Narvaez "de Nebrija" "Nunez de Balboa" "de Ojeda" Orellana
+        Pimentel Pinzon Pizarro "Ponce de Leon" Portocarrero
+        "de Rojas" Tellez-Giron "de la Vega" "de Zuniga"
+    }
+    male_names = {
+        Garcia Ordono Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar Bernaldo Brais Carlos 
+        Cristovo Domingos Estevo Felipe Fernao Francisco Frederico Gonzalo Guillerme Gumersindo Henrique 
+        Hermenexildo Hixinio Hugo Iago Ignacio Leandro Lope Miguel Nuno Odon Paulo Pedro Ramon Roi Toma 
+        Vitor Xoan Xorxe
+    }
+    female_names = {
+        Branca Lua Rodolfa Sofia Aldara Alduara Aldonia Aldonza Beatriz Beatrice Berengaria
+        Blanche Antoa Carme Catarina Dores Iria Lia Margarida Maria Noela Rosalia Sabela Uxea Xoana
+    }
+}

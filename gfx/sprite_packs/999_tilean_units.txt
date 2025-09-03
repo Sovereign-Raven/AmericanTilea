@@ -2,6 +2,8 @@
 	# Tests against every tag in game
 	country_trigger = {
 		tag = AAA
+		#tag = AAB
+		tag = AAD
 	}
 
 	sprite_infantry = {

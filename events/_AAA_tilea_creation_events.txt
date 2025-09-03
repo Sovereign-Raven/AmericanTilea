@@ -35,12 +35,57 @@ country_event = {
             change_culture = galician
             change_religion = catholic
 		}
+		481 = {
+            add_institution_embracement = {
+                which = feudalism
+                value = 100
+            }
+            change_province_name = "Gilboreto"
+            rename_capital = "Gilboreto"
+            change_trade_goods = sugar
+            add_core = AAD
+            cede_province = AAD
+            change_culture = galician
+            change_religion = catholic
+		}
+        AAA = {
+            set_government_rank = 1
+            define_ruler = {
+                name = "Eldarion"
+                dynasty = "Zuniga"
+                age = 32
+                adm = 4
+                dip = 5
+                mil = 6
+                male = yes
+            }
+            clear_scripted_personalities = yes
+            add_ruler_personality = free_thinker_personality
+            define_general = {
+                shock = 5
+                fire = 3
+                manuever = 4
+                siege = 3
+                female = yes
+                name = "Ekate de Elessar"
+                trait = master_of_arms_personality
+            }
+        }
+        AAD = {
+            set_government_rank = 1
+        }
         switch_tag = AAA
         every_province = {
             limit = {
                 has_discovered = AAA
             }
             undiscover_country = AAA
+        }
+        every_province = {
+            limit = {
+                has_discovered = AAD
+            }
+            undiscover_country = AAD
         }
         maryland_area = { # 953 2553 2554; 
             discover_country = AAA
