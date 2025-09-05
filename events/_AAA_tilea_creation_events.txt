@@ -11,6 +11,126 @@ country_event = {
 
     fire_only_once = yes
 
+    is_triggered_only = yes
+	
+	option = {
+		name = tilea_creation.1.a
+        custom_tooltip = play_as_tilea_tt
+        hidden_effect = {
+            953 = {
+                add_institution_embracement = {
+                    which = feudalism
+                    value = 100
+                }
+                change_native_size = 65
+                change_province_name = "Tilea"
+                rename_capital = "Tilea"
+                change_trade_goods = fur
+                add_core = AAA
+                cede_province = AAA
+                change_culture = galician
+                change_religion = catholic
+            }
+            481 = {
+                add_institution_embracement = {
+                    which = feudalism
+                    value = 100
+                }
+                change_province_name = "Gilboreto"
+                rename_capital = "Gilboreto"
+                change_trade_goods = sugar
+                add_core = AAD
+                cede_province = AAD
+                change_culture = galician
+                change_religion = catholic
+            }
+            AAA = {
+                set_government_rank = 1
+                define_ruler = {
+                    name = "Eldarion"
+                    dynasty = "Zuniga"
+                    age = 32
+                    adm = 4
+                    dip = 5
+                    mil = 6
+                    male = yes
+                }
+                clear_scripted_personalities = yes
+                add_ruler_personality = free_thinker_personality
+                define_general = {
+                    shock = 5
+                    fire = 3
+                    manuever = 4
+                    siege = 3
+                    female = yes
+                    name = "Ekate de Elessar"
+                    trait = master_of_arms_personality
+                }
+            }
+            AAD = {
+                set_government_rank = 1
+            }
+            every_province = {
+                limit = {
+                    has_discovered = AAA
+                }
+                undiscover_country = AAA
+            }
+            every_province = {
+                limit = {
+                    has_discovered = AAD
+                }
+                undiscover_country = AAD
+            }
+            maryland_area = { # 953 2553 2554; 
+                discover_country = AAA
+            }
+            950 = {
+                discover_country = AAA
+            }
+            952 = {
+                discover_country = AAA
+            }
+            957 = {
+                discover_country = AAA
+            }
+            938 = {
+                discover_country = AAA
+            }
+            2546 = {
+                discover_country = AAA
+            }
+            2547 = {
+                discover_country = AAA
+            }
+            2550 = {
+                discover_country = AAA
+            }
+            2554 = {
+                discover_country = AAA
+            }
+            2011 = {
+                discover_country = AAA
+            }
+        }
+        switch_tag = AAA
+	}
+
+    option = {
+        name = tilea_creation.1.b
+    }
+}
+
+country_event = {
+	id = tilea_creation.2
+	title = tilea_creation.2.t
+	desc = tilea_creation.2.d
+	picture = TILEA_AZUL_eventPicture
+	
+	major = yes
+
+    fire_only_once = yes
+
     mean_time_to_happen = {
 		months = 2
 	}
@@ -20,102 +140,12 @@ country_event = {
 	}
 	
 	option = {
-		name = tilea_creation.1.a
-		953 = {
-            add_institution_embracement = {
-                which = feudalism
-                value = 100
-            }
-            change_native_size = 65
-            change_province_name = "Tilea"
-            rename_capital = "Tilea"
-            change_trade_goods = fur
-            add_core = AAA
-            cede_province = AAA
-            change_culture = galician
-            change_religion = catholic
-		}
-		481 = {
-            add_institution_embracement = {
-                which = feudalism
-                value = 100
-            }
-            change_province_name = "Gilboreto"
-            rename_capital = "Gilboreto"
-            change_trade_goods = sugar
-            add_core = AAD
-            cede_province = AAD
-            change_culture = galician
-            change_religion = catholic
-		}
-        AAA = {
-            set_government_rank = 1
-            define_ruler = {
-                name = "Eldarion"
-                dynasty = "Zuniga"
-                age = 32
-                adm = 4
-                dip = 5
-                mil = 6
-                male = yes
-            }
-            clear_scripted_personalities = yes
-            add_ruler_personality = free_thinker_personality
-            define_general = {
-                shock = 5
-                fire = 3
-                manuever = 4
-                siege = 3
-                female = yes
-                name = "Ekate de Elessar"
-                trait = master_of_arms_personality
-            }
-        }
-        AAD = {
-            set_government_rank = 1
-        }
-        switch_tag = AAA
-        every_province = {
-            limit = {
-                has_discovered = AAA
-            }
-            undiscover_country = AAA
-        }
-        every_province = {
-            limit = {
-                has_discovered = AAD
-            }
-            undiscover_country = AAD
-        }
-        maryland_area = { # 953 2553 2554; 
-            discover_country = AAA
-        }
-        950 = {
-            discover_country = AAA
-        }
-        952 = {
-            discover_country = AAA
-        }
-        957 = {
-            discover_country = AAA
-        }
-        938 = {
-            discover_country = AAA
-        }
-        2546 = {
-            discover_country = AAA
-        }
-        2547 = {
-            discover_country = AAA
-        }
-        2550 = {
-            discover_country = AAA
-        }
-        2554 = {
-            discover_country = AAA
-        }
-        2011 = {
-            discover_country = AAA
+		name = tilea_creation.2.a
+		country_event = { 
+            id = tilea_creation.1
+            days = 10
+            random = 10
+            tooltip = TILEA_WE_WILL_HEAR_TT
         }
 	}
 }

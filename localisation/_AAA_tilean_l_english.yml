@@ -23,6 +23,13 @@
  
  # EVENT
  
- tilea_creation.1.t: "Build-A-Mercenary"
- tilea_creation.1.d: "Mercenaries are a "
- tilea_creation.1.a: "§YDedications§! - [Root.GetMercDedicationPick]"
+ tilea_creation.1.t: "A Fishing Fleet"
+ tilea_creation.1.d: "News has come of a terrible storm in the Atlantic. We have to assume the Galician fishing fleet has been smashed and vanquished."
+ tilea_creation.1.a: "Maybe there's still hope..."
+ tilea_creation.1.b: "They are lost to the ocean..."
+ play_as_tilea_tt: "Play as Tilea on the American Eastcoast"
+ tilea_creation.2.t: "A Fishing Fleet"
+ tilea_creation.2.d: "A fleet of fishermen from Galicia has arrived at the port of [367.GetName].\nThey have heard from Basque fishers who claim to have found vast amount of cod way out in the west of the Atlantic Ocean, and now they intend to spend several weeks in the land of cod.\nThey also intend to search the surroundings for land and to establish a supply port, and have therefore brought their families and lifestock and materials."
+ tilea_creation.2.a: "We wish them the best of luck..."
+ TILEA_WE_WILL_HEAR_TT: "We will hear from them soon."
+ 
